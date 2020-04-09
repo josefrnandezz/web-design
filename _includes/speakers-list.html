@@ -9,16 +9,6 @@
                         <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                             <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
                                 <div class="overlay solid-overlay"></div>
-                                {% if speaker.ribbon != null %}
-                                <ul class="ribbon-wrapper">
-                                    {% for ribbon in speaker.ribbon %}
-                                    <li class="{{ ribbon["abbr"] | downcase }}">
-                                        <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
-                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
                                 {% if site.showSessions %}
                                 <figcaption>
                                     <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
@@ -44,13 +34,11 @@
                                     <p class="position">{{ speaker.company }}</p>
                                 {% endif %}
                             </ul>
-                            <a href="#" class="slider-next-item {% if sessionsNumber < 2 %}hidden{% endif %}">Next</a>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div> 
-            <a href="{{ site.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a speaker</a>     
         </div>
     </div>
 </section>

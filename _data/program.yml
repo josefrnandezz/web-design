@@ -1,0 +1,36 @@
+- 
+  date: "2025-09-01"
+  dateReadable: "September 1st"
+  tracks: 
+    - {title: "Community", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "11:00",
+    	sessionIds: [005]
+    }
+    - {
+        startTime: "11:15",
+        endTime: "12:45",
+        sessionIds: [003]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "14:30",
+    	sessionIds: [002]
+    }
+    - {
+        startTime: "14:45",
+        endTime: "16:15",
+        sessionIds: [004]
+    }
+    - {
+        startTime: "16:30",
+        endTime: "18:00",
+        sessionIds: [001]
+    }
+    - {
+        startTime: "18:15",
+        endTime: "19:00",
+        sessionIds: [006]
+    }
