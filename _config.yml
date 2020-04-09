@@ -6,18 +6,18 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME', '/vendor/']
 
 
 # Site Settings
 title: "Stadia Conference 2025"
-email: "stadiawebconference@stadia.com"
+email: "stadiawc2025@stadia.com"
 description: "Stadia Web Conferece 2025"
 baseurl: "/2025"
-url: "https://stadia2025.github.io"
+url: "https://stadiawc2025.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "stadia2025.github.io"
+googleAnalyticsSiteUrl: "stadiawc2025.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
@@ -31,9 +31,9 @@ organizerLink: "http://lviv.gdg.org.ua/"
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@stadia2025"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/stadia-logo.svg"
+socialImageSrcTwitter: "/img/seo/stadia-logo.svg"
+socialImageSrcFacebook: "/img/seo/stadia-logo.svg"
 
 # Documents
 c4pUrl: "https://bit.ly/dfua-c4p"
@@ -66,10 +66,9 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "5000", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "8", specialCharacter: "+", info: "hours", detail: "of the most brand new announcements of the world of videogames!"}
+ - {count: "5", specialCharacter: "+", info: "speakers", detail: "worldwide known"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -113,6 +112,19 @@ teamBlockTitle: "About us"
 aboutUs: "We are a non-profit organisation that brings together visionaries in the field of media and communication. We started out in November of 2017 and have since then grown to an organisation of 3 staff-members and numerous volunteers.
 These permanent staff-members are:"
 
+# Contact Block
+contactTitle: "How to get in touch with us?"
+contactBlock:
+ - {title: "Email", image: "email.jpg", text: "Here you have the email of the organization: frs@stadia.com" }
+ - {title: "RSS", image: "twitter.jpg", text: "We only have an official account on Twitter: @stadiawc2025" }
+
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: true
+
+# Hackathon About Block
+aboutHackathonTitle: "Hackathon: Meet our themes"
+hackathonRows:
+ - {title: "VR experience on FIFA 25", details: "Challenge: Experience how would be to play as professional football player through a VR implementation! The winner will have a chance to implement it for the next edition of FIFA"}
+ - {title: "Develop a 2D videogame in less than 2 hours", details: "Find the quickest way to develop a simple but addictive videogame. This session will be hosted by Hideo Kojima"}
+
